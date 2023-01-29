@@ -1,0 +1,12 @@
+.blue_box h1{
+    font-size: 50px;
+    color: #FFFFF0;
+}
+
+.blue_box p{
+    color: #FFFFF0;
+}
+
+.blue_box {
+    background-image: url("/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/backbround_image/ufo_ship.jpg.webp");
+}

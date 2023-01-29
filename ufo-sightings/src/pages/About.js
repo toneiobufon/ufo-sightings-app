@@ -1,13 +1,19 @@
+import "./About.css"
+import Image from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/backbround_image/alien.webp";
+
 const About = () => {
 
   return (
     <div className="about">
-      <h1>We are enthusiasts about the existence of aliens that
+      <h1>About us</h1>
+      <p>
+          We are enthusiasts about the existence of aliens that
           we decided to tell the world how we feel. One of the 
           things we ally with are the words of American astrophysicist
           , Neil deGrasse Tyson, stating that there is life outside
           of Earth.
-      </h1>
+      </p>
+      <img src={Image} width="600" height="400" alt="cam"/>
     </div>
   )
 }

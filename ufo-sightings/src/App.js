@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Sightings from "./pages/Sightings"
 import Shows from "./pages/Shows"
-//import Memes from './Components/Memes'
+
 import { Route, Routes } from "react-router-dom"
 
 function App() {
