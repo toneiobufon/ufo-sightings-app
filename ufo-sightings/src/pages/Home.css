@@ -8,5 +8,5 @@
 }
 
 .blue_box {
-    background-image: url("/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/backbround_image/ufo_ship.jpg.webp");
+    background-image: url("../backbround_image/ufo_ship.jpg.webp");
 }

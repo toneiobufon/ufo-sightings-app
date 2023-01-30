@@ -1,7 +1,7 @@
 import "./Sightings.css"
-import Image from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/backbround_image/arnold.webp";
-import ImageTwo from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/backbround_image/roswell.webp";
-import ImageThree from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/backbround_image/lights.jpeg.webp";
+import Image from "../backbround_image/arnold.webp";
+import ImageTwo from "../backbround_image/roswell.webp";
+import ImageThree from "../backbround_image/lights.jpeg.webp";
 
 const Sightings = () => {
 

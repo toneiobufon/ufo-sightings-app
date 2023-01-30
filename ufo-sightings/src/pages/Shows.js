@@ -1,10 +1,10 @@
 import "./Shows.css"
-import Image from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/shows_movies/futurama.jpg";
-import ImageTwo from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/shows_movies/star_wars.jpg";
-import ImageThree from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/shows_movies/x_files.jpg";
-import ImageFour from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/shows_movies/mib.jpg";
-import ImageFive from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/shows_movies/et.jpg";
-import ImageSix from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/shows_movies/monst_aliens.jpg";
+import Image from "../shows_movies/futurama.jpg";
+import ImageTwo from "../shows_movies/star_wars.jpg";
+import ImageThree from "../shows_movies/x_files.jpg";
+import ImageFour from "../shows_movies/mib.jpg";
+import ImageFive from "../shows_movies/et.jpg";
+import ImageSix from "../shows_movies/monst_aliens.jpg";
 
 const Shows = () => {
 

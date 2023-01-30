@@ -1,5 +1,5 @@
 import "./About.css"
-import Image from "/Users/shu/Desktop/repos/ufo-sightings-app/ufo-sightings/src/backbround_image/alien.webp";
+import Image from "../backbround_image/alien.webp";
 
 const About = () => {
 
