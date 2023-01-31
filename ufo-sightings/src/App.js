@@ -1,5 +1,5 @@
 import Navbar from "./Navbar"
-import Memes from "./pages/Memes"
+import Memes from "./pages/Memes.js"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Sightings from "./pages/Sightings"
