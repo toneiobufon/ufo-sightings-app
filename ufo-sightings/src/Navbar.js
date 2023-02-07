@@ -1,4 +1,4 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
+/*import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 export default function Navbar() {
   return (
@@ -25,4 +25,33 @@ function CustomLink({ to, children, ...props }) {
       </Link>
     </li>
   )
-}
+}*/
+
+import React from 'react';
+import { scaleDown as Menu } from 'react-burger-menu';
+import { Link } from 'react-router-dom';
+
+import './Navbar.css';
+
+const Navbar = ({
+//here's where I pass the props from App.js
+  outerContainerId,
+  pageWrapId,
+}) => {
+  return (
+    <Menu pageWrapId={pageWrapId} outerContainerId={outerContainerId}>
+    {/*use Links to point to other sections/pages*/}
+    <Link id="home" className="menu-item" to="/">
+        Home
+      </Link>
+      <Link id="portfolio" className="menu-item" to="/portfolio">
+        Portfolio
+      </Link>
+      <Link id="contact" className="menu-item" to="/contact">
+        Contact
+      </Link>
+    </Menu>
+  );
+};
+
+export default Navbar;

@@ -25,6 +25,10 @@
   .site-title {
     font-size: 2rem;
   }
+    
+  .site-title:hover {
+    color: red;
+  }
   
   .nav ul {
     padding: 0;
@@ -50,5 +54,6 @@
   .nav li:hover {
     background-color: #777;
   }
+
 
 
