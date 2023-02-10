@@ -27,31 +27,32 @@ function CustomLink({ to, children, ...props }) {
   )
 }*/
 
-import React from 'react';
-import { scaleDown as Menu } from 'react-burger-menu';
-import { Link } from 'react-router-dom';
+import React from "react";
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import {Link} from "react-router-dom";
 
-import './Navbar.css';
+const NavBar = () => (
+  <Navbar collapseOnSelect expand="lg" variant="dark" bg="primary" fixed="top" >
+        <Navbar.Brand href="/home" class="collapse navbar-collapse">
+              <img
+                src= '../images/baby.jpg'
+                alt="you suck"
+                width="90"
+                className="d-inline-block align-top"
+              />
+        </Navbar.Brand>
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav  className="mr-auto" defaultActiveKey="/home" >
+              <Link class="link" to="/">Home</Link>
+              <Link class="link" to="/about">route1</Link>
+              <Link class="link" to="/sightings">route2</Link>
+              <Link class="link" to="/shows">route3</Link>
+              <Link class="link" to="/memes">route3</Link>
+        </Nav>
+    </Navbar.Collapse>
+  </Navbar>
+    );
 
-const Navbar = ({
-//here's where I pass the props from App.js
-  outerContainerId,
-  pageWrapId,
-}) => {
-  return (
-    <Menu pageWrapId={pageWrapId} outerContainerId={outerContainerId}>
-    {/*use Links to point to other sections/pages*/}
-    <Link id="home" className="menu-item" to="/">
-        Home
-      </Link>
-      <Link id="portfolio" className="menu-item" to="/portfolio">
-        Portfolio
-      </Link>
-      <Link id="contact" className="menu-item" to="/contact">
-        Contact
-      </Link>
-    </Menu>
-  );
-};
-
-export default Navbar;
+export default NavBar;
