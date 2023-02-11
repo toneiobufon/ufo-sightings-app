@@ -9,4 +9,8 @@
 
 .blue_box {
     background-image: url("../backbround_image/ufo_ship.jpg.webp");
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: 50px; 
+    margin-right: 50px; 
 }
