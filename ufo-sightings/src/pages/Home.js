@@ -1,4 +1,5 @@
 import "./Home.css"
+import React from 'react';
 
 document.body.style = 'background: #000000;';
 

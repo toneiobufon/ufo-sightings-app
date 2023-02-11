@@ -26,14 +26,17 @@ function CustomLink({ to, children, ...props }) {
     </li>
   )
 }*/
-import './Navbar.css';
+import './Navigation.css';
 
 import React from "react";
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import {Navbar, Nav} from 'react-bootstrap';
 import {Link} from "react-router-dom";
 
-const NavBar = () => (
+const Navigation = () => {
+  return (
+    <>
+
+  
   <Navbar collapseOnSelect expand="lg" variant="dark" bg="primary" fixed="top" >
         <Navbar.Brand href="/home" class="collapse navbar-collapse">
               <img
@@ -54,6 +57,8 @@ const NavBar = () => (
         </Nav>
     </Navbar.Collapse>
   </Navbar>
-    );
+  </>
+  )
+  };
 
-export default NavBar;
+export default Navigation;

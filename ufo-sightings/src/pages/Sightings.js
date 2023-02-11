@@ -1,4 +1,5 @@
 import "./Sightings.css"
+import React from 'react';
 import Image from "../backbround_image/arnold.webp";
 import ImageTwo from "../backbround_image/roswell.webp";
 import ImageThree from "../backbround_image/lights.jpeg.webp";
