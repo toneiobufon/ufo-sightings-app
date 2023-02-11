@@ -26,12 +26,13 @@ function CustomLink({ to, children, ...props }) {
     </li>
   )
 }*/
+import './Navbar.css';
 
 import React from 'react';
 import { scaleDown as Menu } from 'react-burger-menu';
 import { Link } from 'react-router-dom';
 
-import './Navbar.css';
+
 
 const Navbar = ({
 //here's where I pass the props from App.js
