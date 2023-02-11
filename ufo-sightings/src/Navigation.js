@@ -45,6 +45,7 @@ const Navigation = () => {
                 width="90"
                 className="d-inline-block align-top"
               />
+              <h1>OMARSIJO</h1>
         </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
