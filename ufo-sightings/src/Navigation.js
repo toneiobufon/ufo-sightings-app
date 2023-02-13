@@ -17,18 +17,21 @@ const Navigation = () => {
                 width="90"
                 className="d-inline-block align-top"
               />
+              
         </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
         <Nav  className="mr-auto" defaultActiveKey="/home" >
               <Link class="link" to="/">Home</Link>
-              <Link class="link" to="/about">route1</Link>
-              <Link class="link" to="/sightings">route2</Link>
-              <Link class="link" to="/shows">route3</Link>
-              <Link class="link" to="/memes">route3</Link>
+              <Link class="link" to="/about">About</Link>
+              <Link class="link" to="/sightings">Sightings</Link>
+              <Link class="link" to="/shows">Shows</Link>
+              <Link class="link" to="/memes">Memes</Link>
         </Nav>
     </Navbar.Collapse>
   </Navbar>
   </>
   )
   };
+
+  export default Navigation;
