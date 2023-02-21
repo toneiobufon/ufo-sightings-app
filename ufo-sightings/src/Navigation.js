@@ -37,7 +37,7 @@ const Navigation = () => {
     <>
 
   
-  <Navbar collapseOnSelect expand="lg" variant="dark" bg="primary" fixed="top" >
+  <Navbar collapseOnSelect expand='lg' variant="dark" bg="primary" fixed="top"  className="mb-3">
         <Navbar.Brand href="/home" class="collapse navbar-collapse">
               <img
                 src= '../images/baby.jpg'
@@ -45,7 +45,7 @@ const Navigation = () => {
                 width="90"
                 className="d-inline-block align-top"
               />
-              <h1>OMARSIJO</h1>
+              
         </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
