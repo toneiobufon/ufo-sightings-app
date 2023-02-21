@@ -1,11 +1,14 @@
-
 .mr-auto{
-  display: flex;
-  align-item: center;
-  justify-content: space-around;
+  margin-left: 30px;
 }
 
-.link {
+.link{
   color: white;
   text-decoration: none;
+  margin-left: 30px;
 }
+
+.alien_logo{
+  border-radius: 50%
+}
+

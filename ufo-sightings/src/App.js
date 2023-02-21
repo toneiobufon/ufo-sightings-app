@@ -6,7 +6,6 @@ import Sightings from "./pages/Sightings"
 import Shows from "./pages/Shows"
 import './App.css';
 
-
 import React from 'react';
 // import ReactDOM from 'react-dom';
 // import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
@@ -34,34 +33,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-// import React from 'react';
-
-// import { Router, Routes , Route } from 'react-router-dom';
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App" id="outer-container">
-//         <Navbar outerContainerId={'outer-container'} pageWrapId={'page-wrap'} />
-
-//         <div id="page-wrap">
-//           <Routes>
-//             <Route exact path="/" component={<Home />} />
-//             <Route path="/about" component={<About />} />
-//             <Route path="/sightings" component={<Sightings />} />
-//             <Route path="/shows" component={<Shows />} />
-//             <Route path="/memes" component={<Memes />} />
-//           </Routes>
-//         </div>
-//       </div>
-//   </Router>
-//   )
-// }
-
-// export default App;
-

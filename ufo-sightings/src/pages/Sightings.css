@@ -1,7 +1,3 @@
-.shows_movies h1{
-    font-size: 35px;
-    color: #FFFFF0;
-}
 
 .sighting h2{
     color: #FF4433;
@@ -14,4 +10,8 @@
 .sighting{
     margin-left: 60px;
     margin-left: 60px;
+}
+
+.about{
+    margin-top: 100px;
 }
