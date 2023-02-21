@@ -1,4 +1,5 @@
 import "./Memes.css";
+import React from 'react';
 import Aliencow from '../images/Aliencow.jpeg';
 import meme2021 from '../images/meme2021.jpg'
 import alienvspredator from '../images/alienvspredator.jpg'

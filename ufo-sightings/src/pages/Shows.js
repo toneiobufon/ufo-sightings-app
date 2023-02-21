@@ -1,4 +1,5 @@
 import "./Shows.css"
+import React from 'react';
 import Image from "../shows_movies/futurama.jpg";
 import ImageTwo from "../shows_movies/star_wars.jpg";
 import ImageThree from "../shows_movies/x_files.jpg";

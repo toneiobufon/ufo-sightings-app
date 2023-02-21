@@ -1,4 +1,5 @@
 import "./About.css"
+import React from 'react';
 import Image from "../backbround_image/alien.webp";
 
 const About = () => {
