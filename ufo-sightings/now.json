@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "ufo-sightings-app",
+    "builds": [{ "src": "ufo-sightings-app/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+      { "src": "/(.*)", "dest": "ufo-sightings-app/$1"}
+    ]
+  } 
